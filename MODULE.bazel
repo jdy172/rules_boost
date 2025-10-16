@@ -8,7 +8,7 @@ python312.toolchain(
     python_version = "3.12",
 )
 
-use_repo(python312, python = "python_3_12")
+use_repo(python312, "python_3_12")
 
 bazel_dep(name = "bazel_skylib", version = "1.8.2")
 bazel_dep(name = "boringssl", version = "0.20250818.0")

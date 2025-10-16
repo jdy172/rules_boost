@@ -1002,7 +1002,7 @@ boost_library(
     name = "python",
     exclude_src = ["**/fabscript"],
     deps = [
-        "@python",
+        "@python_3_12",
         ":config",
         ":function",
         ":align",
